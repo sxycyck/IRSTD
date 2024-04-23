@@ -1,0 +1,1 @@
+python train/rtdetr_paddle/tools/train.py  -c train/rtdetr_paddle/configs/rtdetr/rtdetr_focalnet_L_384_3x_coco.yml   -o pretrain_weights=https://bj.bcebos.com/v1/paddledet/models/rtdetr_focalnet_L_384_3x_coco.pdparams
