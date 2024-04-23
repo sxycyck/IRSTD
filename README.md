@@ -88,17 +88,13 @@ project/user_data/cocodataset
 project/code/train.sh
 ```
 
-预训练模型路径为：
+预训练模型链接为：
 
-```
+https://bj.bcebos.com/v1/paddledet/models/rtdetr_focalnet_L_384_3x_coco.pdparams
+
+下载完毕后放到路径：
+
 project/user_data/model_data/rtdetr_focalnet_L_384_3x_coco.pdparams
-```
-
-训练完毕后的权重我们已经提供，路径为：
-
-```
-project/user_data/model_data/best_model.pdparams
-```
 
 ## 测试推理
 
