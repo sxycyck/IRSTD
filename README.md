@@ -80,6 +80,14 @@ project/user_data/cocodataset
 
 我们所使用的基础模型为RT-DETR （[Real-Time Detection Transformer](https://arxiv.org/pdf/2304.08069.pdf)）模型，是一个使用transformer架构的实时检测模型。原模型使用的主干网络为ResNet50,我们使用Focal_Net([Focal Modulation Networks](https://arxiv.org/abs/2203.11926))作为主干网络，并使用在coco数据集上训练完成的模型作为预训练模型来对比赛数据集进行训练。模型训练主要采用paddlepaddle框架。
 
+用于数据增强的分割模型链接为：
+
+https://github.com/facebookresearch/segment-anything#model-checkpoints
+
+下载完后放到路径：
+
+project/user_data/model_data/sam_vit_l_0b3195.pth
+
 训练模型基础参数为
 
 训练模型的脚本路径为：
